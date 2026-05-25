@@ -1,0 +1,33 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Georgia, serif; background: #faf9f6; color: #2d2a26; line-height: 1.5; }
+a { color: #3d5a40; }
+.wrap { max-width: 900px; margin: 0 auto; padding: 24px 20px; }
+.site-header { border-bottom: 2px solid #c4b8a8; padding-bottom: 12px; margin-bottom: 24px; }
+.site-header h1 { font-size: 1.35rem; font-weight: normal; color: #4a4035; }
+.site-nav { margin-top: 10px; }
+.site-nav a { margin-right: 18px; text-decoration: none; }
+.page-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid #ddd5c8; }
+.page-top h2 { font-size: 1.5rem; font-weight: normal; color: #3d3832; }
+.page-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn { display: inline-block; padding: 8px 16px; text-decoration: none; border-radius: 4px; border: 1px solid #5c6b4a; background: #5c6b4a; color: #fff; cursor: pointer; font-family: inherit; font-size: 0.9rem; }
+.btn:hover { background: #4a5839; color: #fff; }
+.btn-outline { background: #fff; color: #5c6b4a; }
+.btn-outline:hover { background: #eef2e8; }
+.btn-danger { background: #8b3a3a; border-color: #8b3a3a; }
+.card { background: #fff; border: 1px solid #e0d8cc; padding: 16px; margin-bottom: 16px; border-radius: 6px; }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin: 16px 0; }
+.summary-box { background: #fff; border: 1px solid #e0d8cc; padding: 14px; text-align: center; border-radius: 6px; }
+.summary-box strong { display: block; font-size: 1.3rem; color: #5c6b4a; }
+table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e0d8cc; }
+th, td { padding: 10px; border-bottom: 1px solid #ebe4d9; text-align: left; }
+th { background: #f0ebe3; font-size: 0.85rem; }
+.empty { color: #6b6560; font-style: italic; }
+.errors { background: #fce8e8; border: 1px solid #d4a0a0; padding: 12px; margin-bottom: 16px; color: #6b2e2e; }
+label { display: block; margin-top: 12px; color: #4a4035; }
+input, textarea, select { width: 100%; max-width: 420px; margin-top: 6px; padding: 8px; border: 1px solid #c4b8a8; border-radius: 4px; font-family: inherit; }
+.inline-delete { display: inline; }
+.btn-link { background: none; border: none; color: #8b3a3a; text-decoration: underline; cursor: pointer; font-family: inherit; }
+.site-footer { margin-top: 32px; padding-top: 12px; border-top: 1px solid #ddd5c8; font-size: 0.8rem; color: #8a837a; }
+.status-pending { color: #9a6b22; }
+.status-in_progress { color: #2e5a7a; }
+.status-done { color: #3d6b45; }
