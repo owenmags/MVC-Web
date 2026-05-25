@@ -1,0 +1,12 @@
+/vendor/
+/storage/*.sqlite
+/storage/*.log
+<<<<<<< HEAD
+composer.phar
+.idea/
+.vscode/
+Thumbs.db
+=======
+.idea/
+.vscode/
+>>>>>>> 8879ddd427e6787a602e800dca8e38671064d187

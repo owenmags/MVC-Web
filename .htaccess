@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Send everything to the public folder (front controller)
+RewriteRule ^$ public/ [L]
+RewriteRule (.*) public/$1 [L]

@@ -1,0 +1,14 @@
+{
+    "name": "hernando/php-mvc-framework",
+    "description": "Custom PHP MVC framework - Final Examination Project",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    }
+}
