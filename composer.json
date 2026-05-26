@@ -1,5 +1,5 @@
 {
-    "name": "hernando/php-mvc-framework",
+    "name": "owenmags/mvc-web",
     "description": "Custom PHP MVC framework - Final Examination Project",
     "type": "project",
     "require": {
