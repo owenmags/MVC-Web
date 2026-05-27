@@ -6,9 +6,6 @@ namespace Core\Database;
 
 use PDO;
 
-/**
- * Small query builder - not fancy but works for our CRUD app.
- */
 final class QueryBuilder
 {
     private string $table;
