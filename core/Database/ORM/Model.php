@@ -11,10 +11,6 @@ use RuntimeException;
  * Simple Active Record ORM.
  * Each model maps to one database table (SRP - one model, one table).
  *
- * Example:
- *   $post = Post::find(1);
- *   $post->title = 'Updated';
- *   $post->save();
  */
 abstract class Model
 {

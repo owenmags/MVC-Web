@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Core\Database\ORM;
 
 /**
- * Wraps a list of ORM models (like a mini Laravel collection).
+ * Wraps a list of ORM models
  */
 final class Collection
 {
